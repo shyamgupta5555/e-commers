@@ -1,0 +1,32 @@
+.footer-container {
+  background-color: white;
+
+  .main {
+    .cont-a {
+      display: flex;
+      background-color: rgb(45, 43, 51);
+      height: 16vh;
+      img {
+        margin: auto;
+        height: 100px;
+      }
+    }
+
+    .cont-b {
+      background-color: rgb(34, 34, 34);
+      height: 10vh;
+
+      ul {
+        align-items: center;
+        text-align: center;
+
+        li {
+          color: white;
+          margin: 0 10px;
+          padding-top: 30px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
